@@ -1,0 +1,11 @@
+**/__pycache__
+
+# Exclude videos
+**/*.MP4
+**/*.mp4
+**/*.MP4_original
+**/*.mp4_original
+**/*.MOV
+**/*.mov
+**/*.MOV_original
+**/*.mov_original

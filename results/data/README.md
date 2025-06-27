@@ -1,0 +1,3 @@
+The top level of `fci_evaluation.json` contains the box blur kernel sizes used for calculating the reconstruction error. 
+The reconstruction error is calculated by measuring the RGB difference between the actual second frame of the dataset, and the forward-warped pixels of the models prediction. 
+This blur is applied to both the actual frame and the predicted frame, because the predictions almost cannot be pixel-accurate due to blending at sub-pixel movements.
